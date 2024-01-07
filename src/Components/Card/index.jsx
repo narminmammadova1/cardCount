@@ -25,18 +25,19 @@ if(count>0 ){
   
         }   
          };
-      
+      const disabled=stock===0
+      const disabled2=count===0
   return (
     <div className={styles.card}>
       <div className={styles.cardImg}>
         <img src={props.image} alt="resim" />
        
       </div>
-      <h3>Price:${props.price}</h3>
+      <h3>Price:{props.price}$</h3>
       
-      <Buttons handleDecrease={handleDecrease} handleIncrease={handleIncrease} count={count} />
+      <Buttons disabled2={disabled2} disabled={disabled} handleDecrease={handleDecrease} handleIncrease={handleIncrease} count={count} />
 
-      <h3>Total Price:{props.price*count}</h3>
+      <h3>Total Price:{props.price*count}$</h3>
       <h4>Stock:{stock}</h4>
     </div>
   );

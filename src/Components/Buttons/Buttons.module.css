@@ -10,6 +10,10 @@
     height: 30px;
     cursor: pointer;
 }
+
+.btn:disabled{background-color: #ccc; 
+    color: #999; 
+    cursor:pointer; }
 .buttons{
     display: flex;
     align-items: center;
@@ -20,3 +24,4 @@
     font-size: 20px;
     font-weight: 600;
 }
+

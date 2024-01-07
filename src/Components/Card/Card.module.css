@@ -27,3 +27,9 @@ h3{
 margin: 0px;}
 h4{margin: 0px;
 }
+
+.btDdisabled{
+    opacity: 0.1;
+    cursor: none;
+    background-color: blueviolet;
+}

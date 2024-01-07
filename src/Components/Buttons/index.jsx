@@ -5,9 +5,9 @@ export const Buttons = (props) => {
 
   return (
     <div className={styles.buttons}>
-      <button onClick={props.handleDecrease} className={styles.btn}>-</button>
+      <button disabled={props.disabled2}  onClick={props.handleDecrease} className={styles.btn}>-</button>
       <p className={styles.btnTitle}>{props.count}</p>
-      <button onClick={props.handleIncrease} className={styles.btn}>+</button>
+      <button disabled={props.disabled}  onClick={props.handleIncrease} className={styles.btn}>+</button>
 
     </div>
   )
