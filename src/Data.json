@@ -1,0 +1,48 @@
+
+
+
+[
+    {
+      
+    
+  "id": 1,
+  "image":"/images/p1.jfif",
+      
+    
+  "category": "telefon",
+      
+      
+  "price": 500,
+      
+   
+  "stock": 20
+    
+    
+  },
+    
+    
+  {
+      
+     
+  "id": 2,
+      
+  "image":"/images/p0.jfif",
+  "category": "bilgisayar",
+      
+    
+  "price": 1000,
+      
+     
+  "stock": 15
+    },
+    {
+      
+   
+  "id": 3,
+  "image":"/images/p2.jfif",
+      "category": "s",
+      "price": 200,
+      "stock": 25
+    
+  }
+  ]

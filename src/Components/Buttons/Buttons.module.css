@@ -1,0 +1,22 @@
+.btn {
+    background-color: white;
+    color: black;
+    /* padding: 8px 12 px; */
+    border-radius: 8px;
+    border: none;
+    font-size: 26px;
+    font-weight: 700;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.btnTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
